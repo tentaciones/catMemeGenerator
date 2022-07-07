@@ -29,7 +29,7 @@ const Generator = () => {
       <div className="md:hidden flex justify-center text-3xl">
         <button
           onClick={getCat}
-          className="font-[cursive] bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white w-72 h-10 rounded mt-7"
+          className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white w-72 h-10 rounded mt-7"
         >
           click
         </button>
@@ -46,12 +46,12 @@ const Generator = () => {
         )}
       </div>
       <div className="hidden md:flex justify-center text-indigo-500 text-3xl gap-5">
-        <div className="mt-7 font-[cursive]">Cute cats</div>
+        <div className="mt-7 font-[cursive]">Get Random Cat Images</div>
         <button
           onClick={getCat}
-          className="font-[cursive] bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white w-72 h-10 rounded mt-7"
+          className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white w-72 h-10 rounded mt-7"
         >
-          Click
+          click
         </button>
       </div>
 
